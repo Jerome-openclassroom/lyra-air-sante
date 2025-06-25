@@ -1,0 +1,43 @@
+# Prompts typiques
+
+Température : 22°C
+Humidité : 55%
+Inversion : non
+Pollens : moyen
+IQA : 4
+Vent > 20 km/h : non
+Pluie > 20 mm : non
+
+Température : 30°C
+Humidité : 60%
+Inversion : oui
+Pollens : faible
+IQA : 3
+Vent > 20 km/h : non
+Pluie > 20 mm : non
+
+# Prompts extrêmes
+
+Température : 36°C
+Humidité : 80%
+Inversion : oui
+Pollens : élevé
+IQA : 9
+Vent > 20 km/h : non
+Pluie > 20 mm : non
+
+Température : 28°C
+Humidité : 85%
+Inversion : non
+Pollens : élevé
+IQA : 6
+Vent > 20 km/h : oui
+Pluie > 20 mm : oui
+
+Température : 12°C
+Humidité : 95%
+Inversion : oui
+Pollens : faible
+IQA : 10
+Vent > 20 km/h : non
+Pluie > 20 mm : non
