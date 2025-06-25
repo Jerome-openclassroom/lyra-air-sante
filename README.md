@@ -37,18 +37,21 @@ Wind > 20 km/h: no
 Rain > 20 mm: yes
 ```
 
-## 📁 File Structure
+## 📁 Project Structure (with comments)
 ```
 Lyra_Air_Health/
-├── datasets/
-│   ├── dataset_lyra_air_sante.jsonl
-│   ├── validation_lyra_air_sante.jsonl
-│   └── dataset_lyra_air_sante_verification_visuelle.xls
-├── prompts/
-│   └── exemples_prompts.txt
-├── synthèse_Fr/
-│   └── Synthèse Lyra Air santé.pdf
-└── README.md
+├── datasets/                             # 📊 Training and validation data
+│   ├── dataset_lyra_air_sante.jsonl         # JSONL file for fine-tuning the model
+│   ├── validation_lyra_air_sante.jsonl      # Validation set to test model generalization
+│   └── dataset_lyra_air_sante_verification_visuelle.xls  # Human-readable version of the dataset (Excel)
+│
+├── prompts/                              # ✍️ Prompt examples used to evaluate the model
+│   └── exemples_prompts.txt                  # Includes both standard and edge-case scenarios
+│
+├── synthèse_Fr/                          # 🗂️ Project summary (in French)
+│   └── Synthèse Lyra Air santé.pdf           # Technical and pedagogical documentation (FR)
+│
+└── README.md                             # 📄 This file – project overview, structure and usage
 ```
 
 ## 🛠️ Usage
