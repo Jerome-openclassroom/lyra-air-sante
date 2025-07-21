@@ -41,8 +41,8 @@ Rain > 20 mm: yes
 ```
 Lyra_Air_Health/
 ├── datasets/                             # 📊 Training and validation data
-│   ├── dataset_lyra_air_sante.jsonl         # JSONL file for fine-tuning the model
-│   ├── validation_lyra_air_sante.jsonl      # Validation set to test model generalization
+│   ├── lyra_air_sante_train.jsonl         # JSONL file for fine-tuning the model
+│   ├── lyra_air_sante_valid.jsonl      # Validation set to test model generalization
 │   └── dataset_lyra_air_sante_verification_visuelle.xls  # Human-readable version of the dataset (Excel)
 │
 ├── prompts/                              # ✍️ Prompt examples used to evaluate the model
